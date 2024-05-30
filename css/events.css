@@ -1,0 +1,27 @@
+.googleMaps {
+    height: 500px;
+    width: 55%;
+    margin-left: 15%;
+    float: left;
+}
+
+.eventList {
+    width: 25%;
+    height: 500px;
+    float: left;
+    background-color: brown;
+    overflow-y:scroll;
+}
+
+.bodyBottomHeader{
+    margin-top: 100px;
+    margin-bottom: 650px;
+}
+
+.eventListItem{
+    width: auto;
+    height: 50px;
+    background-color: coral;
+    margin: 5px;
+    overflow: hidden;
+}

@@ -1,0 +1,117 @@
+
+.backgroundimage {
+    background-image: url("/../img/background/Background.jpg");
+    height: 500px;
+    opacity: 0.9;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.centerDIV {
+    /* margin: 0 auto;
+    display: flex;
+    width: 25%;
+    border: 3px solid green;
+    position: relative;
+    padding: 10px; */
+
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.Nintendistas {
+    /* display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    width: 45%;
+     */
+    width: 65%;
+    height: 100%;
+    margin-left: 15%;
+
+    object-fit: contain;
+    position: relative;
+    z-index: 0;
+}
+
+.TituloNintendistas {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1 {
+
+    text-align: center;
+    margin-top: 25px;
+}
+
+.textoNintendistas {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.pnlNews {
+    height: 35%;
+    height: 350px;
+    margin-top: 75px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.pnActuallNews {
+    margin: 0 auto;
+    background-color: #fff;
+    width: 450px;
+    margin-bottom: 75px;
+    border: 1px solid black;
+    padding-right: 0px;
+    max-height: 250px;
+    padding-left: 0px;
+}
+
+.imgNews {
+    width: 100%;
+    filter: contrast(110%);
+    height: 200px;
+    max-width: 450px;
+    object-fit: contain;
+    position: static;
+}
+
+.clickInMyText {
+    float: right;
+    bottom: 0px;
+    margin-right: 5px;
+    font-size: x-small;
+    color: #5f5d5d9b;
+}
+
+.imgNintendistasEvents {
+    max-width: 250px;
+    max-height: 250px;
+    background-color: transparent;
+    object-fit: fill;
+}
+
+.pnActuallEvents {
+    background-color: transparent;
+    padding: 15px;
+    background-color: #7575759a;
+    border: 1px solid black;
+    width: 250px;
+    margin: 0 auto;
+    max-height: 250px;
+    margin-bottom: 35px;
+}
+
+

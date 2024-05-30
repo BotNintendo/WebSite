@@ -1,0 +1,42 @@
+.container {
+    text-align: center;
+}
+
+#myChart {
+    margin: 0 auto;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+.divgraficos{
+    float:right;
+    width: 50%;
+    display: inline-block;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    height: 450px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%-50px);
+    max-width: 350px;
+    margin: auto;
+}
+
+canvas {
+    width: 100% !important;
+    height: auto !important;
+}

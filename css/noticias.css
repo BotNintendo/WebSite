@@ -1,0 +1,156 @@
+.filter {
+    margin-top: 45px;
+    background-color: red;
+    width: 100%;
+    height: 45px;
+    float: right;
+    overflow: hidden;
+}
+
+.categoria {
+    background-color: rgb(65, 61, 61);
+    cursor: pointer;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    overflow: auto;
+    color: white;
+    border-radius: 5px;
+}
+
+.Divcategoria {
+    background-color: rgb(65, 61, 61);
+    cursor: pointer;
+    color: white;
+    height: auto;
+    border-radius: 50%;
+    justify-content: space-between;
+    width: fit-content;
+    margin: 7.5px;
+    border-radius: 7.5px;
+    float: left;
+}
+
+
+.DivFiltro {
+    background-color: white;
+    border: 1px black solid;
+    height: 350px;
+    width: 350px;
+    margin-top: 35px;
+    right: 0px;
+    display: none;
+    position: absolute;
+    z-index: 99;
+}
+
+.subcategorias {
+    width: 80%;
+    float: left;
+}
+
+.categoriall {
+    float: right;
+    width: 15%;
+}
+
+.pesquisa {
+    margin-top: 320px;
+    right: 10px;
+    position: absolute;
+    float: right
+}
+
+.bodyNews {
+    padding-top: 100px;
+}
+
+.DivNews {
+    background-color: red;
+    margin: 5px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 50px;
+    height: 150px;
+    width: auto;
+}
+
+.imgNews {
+    filter: contrast(110%);
+    height: 100px;
+    margin-top: 20px;
+    object-fit: contain;
+}
+
+.DivImage {
+    background-color: green;
+    min-width: 220px;
+    max-width: 30%;
+    overflow: hidden;
+    justify-content: center;
+    float: left;
+    object-fit: contain;
+    height: 100%;
+    display: flex;
+}
+
+.DivText {
+    background-color: aqua;
+    width: calc(100% - 220px);
+    float: right;
+    overflow: hidden;
+    height: 100%;
+
+}
+
+h4 {
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.divTexto {
+    overflow: hidden;
+    border: 1px solid #333333;
+    text-align: center;
+    height: 50%;
+    margin: 5px;
+}
+
+.divdata {
+    right: 0px;
+    float: right;
+    margin-right: 6%;
+    position: absolute;
+    z-index: 0;
+}
+
+.filternoticia {
+    background-color: purple;
+    position: relative;
+    width: 80%;
+    height: 35px;
+    float: left;
+    margin-top: -5px;
+    margin-left: 10px;
+    overflow: hidden;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.ShowMore {
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 3px;
+    margin-top: 25px;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.hastagsimg {
+    width: 15px;
+}

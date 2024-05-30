@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cut and Display Image</title>
+<style>
+  #canvas {
+    border: 1px solid black;
+  }
+</style>
+</head>
+<body>
+<h1>Image Cutting and Display</h1>
+<canvas id="canvas" width="400" height="300"></canvas>
+<script>
+  // Get the canvas element
+  const canvas = document.getElementById('canvas');
+  const ctx = canvas.getContext('2d');
+
+  // Load the image
+  const img = new Image();
+  img.src = 'img/events/image1.jpg'; // Replace 'your_image_url.jpg' with the URL of your image
+
+  // When the image is loaded, draw it on the canvas and cut
+  img.onload = function() {
+    ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+
+    // Cut the image
+    const cutX = 100; // Example: X coordinate where you want to start cutting
+    const cutY = 100; // Example: Y coordinate where you want to start cutting
+    const cutWidth = 200; // Example: Width of the cut
+    const cutHeight = 150; // Example: Height of the cut
+
+    const cutImage = ctx.getImageData(cutX, cutY, cutWidth, cutHeight);
+
+    // Clear the canvas
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Resize canvas to fit the cut image
+    canvas.width = cutWidth;
+    canvas.height = cutHeight;
+
+    // Draw the cut image on the canvas
+    ctx.putImageData(cutImage, 0, 0);
+  };
+</script>
+</body>
+</html>

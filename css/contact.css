@@ -1,0 +1,36 @@
+.divCenter{
+    
+    margin: 0 auto;
+    text-align: center;
+}
+
+.divCenter > p{
+    margin-top: 15px;
+}
+
+.ThanksDevs{
+    margin-top: 35px;
+    justify-content: space-around;
+    display: flex;
+}
+
+div> div > div > div > img{
+    padding: 25px;
+    background-color: green;
+}
+
+.contentofImage{
+    margin: 0px auto;
+}
+
+input{
+    margin-top: 25px;
+    height: 50px;
+    width: 450px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#Mensagem{
+    background-color: red;
+}

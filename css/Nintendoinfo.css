@@ -1,0 +1,55 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.active-row{
+    border-bottom: 1px solid #dddddd;
+    background-color: #f3f3f3;
+
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.tabela50{
+    width: 50%;
+    height: 350px;
+    float: left;
+    background-color: red;    
+}
+
+.divJogos{
+    width: 95%;
+    background-color: gray;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 35px;
+    border: 1px solid black;
+}
+
+.Title{
+    margin-left: 45px;
+}
