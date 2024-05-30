@@ -1,6 +1,6 @@
 
 .backgroundimage {
-    background-image: url("/../img/background/Background.jpg");
+    background-image: url("./../img/background/Background.jpg");
     height: 500px;
     opacity: 0.9;
     background-attachment: fixed;
